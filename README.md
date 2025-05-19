@@ -10,6 +10,10 @@ This project provides a step-by-step guide on how to:
 - Set up proper development and production environments
 - Implement best practices for Dockerizing Node.js apps
 
+## Repository Setup
+
+The files in this repository were uploaded from a local development environment to this GitHub repository. The README and initial repository setup were created with assistance from Claude, an AI assistant developed by Anthropic.
+
 ## Structure
 
 - `app/` - Contains the Node.js application code
