@@ -1,0 +1,10 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/app
+    ports:
+      - "8080:5050" # map localhost port 8080 to you access the docker image and informs your application will run inside the container on port 5050
+    restart: unless-stopped
